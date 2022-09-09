@@ -10,8 +10,18 @@
   justify-content: space-around;
 }
 
+.selection {
+  position: relative;
+  display: inline-flex;
+  justify-content: flex-end;
+  align-self: flex-end;
+  flex-direction: row;
+  /* left: 1100px;
+  top: 20px; */
+}
+
+
 h1 {
-  min-width:1400px;
   font-weight: 100 !important;
 }
 
@@ -26,7 +36,8 @@ th {
   display: inline-flex;
   border-bottom: 1px solid rgb(228, 228, 228);
   flex-direction: row;
-  min-width: 1300px;
+  width: 100%;
+  justify-content: space-between;
 }
 
 .header i {
